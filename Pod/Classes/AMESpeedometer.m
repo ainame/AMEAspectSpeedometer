@@ -16,13 +16,12 @@
 
 @implementation AMESpeedometer
 
-- (instancetype)initWithReportName:(NSString *)reportName reportOptions:(AMESpeedometerReportOptions)reportOptions
+- (instancetype)initWithReportName:(NSString *)reportName
 {
     self = [super init];
     if (self) {
         _reportName = reportName;
         _timer = [AMESpeedmeterTimer new];
-        _reportOptions = reportOptions;
     }
     return self;
 }
@@ -43,10 +42,6 @@
                                                                 startDatetime:_timer.startDatetime
                                                                finishDatetime:_timer.finishDatetime
                                                                          meta:@{}];
-    if (_reportOptions & AMESpeedometerReportByConsole) {
-        NSLog(@"%@", report);
-    }
-
     return report;
 }
 

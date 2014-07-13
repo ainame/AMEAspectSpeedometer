@@ -22,7 +22,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    _speedometer = [[AMESpeedometer alloc] initWithReportName:@"stop watch" reportOptions:AMESpeedometerReportByConsole];
+    _speedometer = [[AMESpeedometer alloc] initWithReportName:@"stop watch"];
 }
 
 - (void)didReceiveMemoryWarning
