@@ -23,9 +23,6 @@
                                 [speedometer start];
                                 [invocation invoke];
                                 [speedometer finish];
-                                //                                id returnValue;
-                                //                                [[aspectInfo originalInvocation] getReturnValue:&returnValue];
-                                //                                [[aspectInfo originalInvocation] setReturnValue:&returnValue];
                                 reportBlock([speedometer report]);
                             } error:nil];
 }
