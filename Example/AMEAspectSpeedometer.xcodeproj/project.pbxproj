@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31706D0919728B7700902F2A /* AMESpeedometer.m in Sources */ = {isa = PBXBuildFile; fileRef = 31706D0819728B7700902F2A /* AMESpeedometer.m */; };
+		31706D0C19728D1700902F2A /* AMESpeedometerReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 31706D0B19728D1700902F2A /* AMESpeedometerReport.m */; };
+		318E5D08197294B400D0EF5C /* AMESpeedmeterTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 318E5D07197294B400D0EF5C /* AMESpeedmeterTimer.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,6 +41,12 @@
 
 /* Begin PBXFileReference section */
 		022294B7F0084D00B21EE3F6 /* Pods-AMEAspectSpeedometer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMEAspectSpeedometer.xcconfig"; path = "Pods/Pods-AMEAspectSpeedometer.xcconfig"; sourceTree = "<group>"; };
+		31706D0719728B7700902F2A /* AMESpeedometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMESpeedometer.h; sourceTree = "<group>"; };
+		31706D0819728B7700902F2A /* AMESpeedometer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMESpeedometer.m; sourceTree = "<group>"; };
+		31706D0A19728D1700902F2A /* AMESpeedometerReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMESpeedometerReport.h; sourceTree = "<group>"; };
+		31706D0B19728D1700902F2A /* AMESpeedometerReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMESpeedometerReport.m; sourceTree = "<group>"; };
+		318E5D06197294B400D0EF5C /* AMESpeedmeterTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMESpeedmeterTimer.h; sourceTree = "<group>"; };
+		318E5D07197294B400D0EF5C /* AMESpeedmeterTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMESpeedmeterTimer.m; sourceTree = "<group>"; };
 		466080754C334B388B80268D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5CDD1F9E8FDE4EAAB496D7D2 /* Pods-Tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.xcconfig"; path = "Pods/Pods-Tests.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* AMEAspectSpeedometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMEAspectSpeedometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +114,12 @@
 		31706D0619728B4600902F2A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				31706D0719728B7700902F2A /* AMESpeedometer.h */,
+				31706D0819728B7700902F2A /* AMESpeedometer.m */,
+				31706D0A19728D1700902F2A /* AMESpeedometerReport.h */,
+				31706D0B19728D1700902F2A /* AMESpeedometerReport.m */,
+				318E5D06197294B400D0EF5C /* AMESpeedmeterTimer.h */,
+				318E5D07197294B400D0EF5C /* AMESpeedmeterTimer.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -366,9 +381,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31706D0C19728D1700902F2A /* AMESpeedometerReport.m in Sources */,
 				6003F59E195388D20070C39A /* AMEAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* AMEViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				31706D0919728B7700902F2A /* AMESpeedometer.m in Sources */,
+				318E5D08197294B400D0EF5C /* AMESpeedmeterTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
