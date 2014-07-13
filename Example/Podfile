@@ -1,0 +1,10 @@
+target 'AMEAspectSpeedometer', :exclusive => true do
+  pod "AMEAspectSpeedometer", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "AMEAspectSpeedometer", :path => "../"
+
+  pod 'Specta', '~> 0.2.1'
+  pod 'Expecta'
+end
