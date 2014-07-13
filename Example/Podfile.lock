@@ -1,5 +1,7 @@
 PODS:
-  - AMEAspectSpeedometer (0.1.0)
+  - AMEAspectSpeedometer (0.1.0):
+    - Aspects
+  - Aspects (1.4.1)
   - Expecta (0.3.1)
   - Specta (0.2.1)
 
@@ -13,7 +15,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  AMEAspectSpeedometer: 50cd4583c0ddf05a97bbaac0e60e216ccbb3c27c
+  AMEAspectSpeedometer: 8a44f9883a536f3e05e81d5a14d836d99dfe6137
+  Aspects: a6368eba05295b24ffe0e9acfb9080cc3b0f4b5f
   Expecta: 03aabd0a89d8dea843baecb19a7fd7466a69a31d
   Specta: 9141310f46b1f68b676650ff2854e1ed0b74163a
 
