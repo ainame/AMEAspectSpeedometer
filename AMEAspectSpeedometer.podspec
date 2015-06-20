@@ -10,27 +10,26 @@
 Pod::Spec.new do |s|
   s.name             = "AMEAspectSpeedometer"
   s.version          = "0.1.0"
-  s.summary          = "A short description of AMEAspectSpeedometer."
+  s.summary          = "AMEAspectSpeedometer provide a solusion of velocity measurement in your application code."
   s.description      = <<-DESC
-                       An optional longer description of AMEAspectSpeedometer
+                       AMEAspectSpeedometer provide a solusion of velocity measurement in your application code.
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       to see README.md for more details [https://github.com/ainame/AMEAspectSpeedometer/blob/master/README.md](https://github.com/ainame/AMEAspectSpeedometer/blob/master/README.md)
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/AMEAspectSpeedometer"
+  s.homepage         = "https://github.com/ainame/AMEAspectSpeedometer"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "ainame" => "s.namai.09@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/AMEAspectSpeedometer.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/ainame/AMEAspectSpeedometer.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'
-  s.resources = 'Pod/Assets/*.png'
+  # s.resources = 'Pod/Assets/*.png'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'Aspects'
